@@ -1,11 +1,9 @@
 import asyncio
 import argparse
-import time
-from typing import List, Dict, Optional, Set
+from typing import List, Dict, Set
 import os
+from dotenv import load_dotenv
 import requests
-import json
-from pathlib import Path
 
 from agents import Agent, Runner, trace, function_tool
 
@@ -303,7 +301,7 @@ async def main():
     parser.add_argument("--token", help="GitHub token (can also be set via GITHUB_TOKEN env var)")
     parser.add_argument("--legacy", action="store_true", help="Run legacy git analysis mode")
     args = parser.parse_args()
-
+    load_dotenv()
     # Set GitHub token from args if provided
     if args.token:
         os.environ["GITHUB_TOKEN"] = args.token
