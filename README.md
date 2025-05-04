@@ -2,6 +2,10 @@
 
 An automated GitHub PR review agent powered by OpenAI that provides thoughtful, critical code reviews across multiple repositories.
 
+![Screenshot 2025-05-04 at 7 39 25 PM](https://github.com/user-attachments/assets/f4f69bf6-9d36-4067-a117-dc72cd0ae85b)
+
+[An example of the agent's feedback](https://github.com/AndreasInk/PR-Review-Agent/pull/1#issuecomment-2849487178)
+
 ## Features
 
 - 🤖 AI-powered code reviews that challenge assumptions and improve code quality
