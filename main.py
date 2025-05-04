@@ -1,11 +1,9 @@
 import asyncio
 import argparse
 import logging
-import json
 import time
 import sqlite3
-from pathlib import Path
-from typing import List, Dict, Set, Optional, Any, Tuple
+from typing import List, Dict, Optional, Tuple
 import os
 from dotenv import load_dotenv
 import requests
