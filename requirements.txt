@@ -1,3 +1,4 @@
 openai-agents
 uv
 requests
+python-dotenv
